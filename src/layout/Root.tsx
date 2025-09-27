@@ -25,7 +25,10 @@ export default function Root() {
           property="og:image"
           content="https://image.pollinations.ai/prompt/Professional%20portrait%20style%20banner%20for%20software%20engineer%2C%20navy%20and%20gold%20government%20theme%2C%20subtle%20geometric%20background%2C%201200x630?width=1200&height=630&nologo=true"
         />
-        <meta property="og:image:alt" content="Professional banner in navy and gold for software engineer portfolio" />
+        <meta
+          property="og:image:alt"
+          content="Professional banner in navy and gold for software engineer portfolio"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"

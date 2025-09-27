@@ -22,6 +22,7 @@ export default function ProjectCard({ p }: { p: Project }) {
             alt={p.title}
             className="h-40 w-full object-cover"
             loading="lazy"
+            decoding="async"
           />
         )}
         <div className="p-5">

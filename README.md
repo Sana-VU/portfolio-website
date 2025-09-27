@@ -72,6 +72,14 @@ The list auto-imports and sorts by date. Create a link to `/blog/my-post`.
 - OG Image: replace `public/og.png`
 - Icons: replace files in `public/icons/`
 
+### Images (AI-generated)
+
+Project thumbnails use AI-generated images via Pollinations (`https://image.pollinations.ai/prompt/...`).
+
+- To change an image, edit the `image` URL in `src/content/projects.ts` and tweak the prompt text.
+- If you prefer local assets, replace the URLs with files under `public/images/projects/` (e.g., `/images/projects/erp.jpg`).
+- Note: remote images load at runtime; for maximum determinism, use local static images in `public/`.
+
 ## SEO
 
 - Edit per-page titles/descriptions in each page via `<Helmet>`.

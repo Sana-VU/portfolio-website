@@ -1,0 +1,17 @@
+# Node
+node_modules/
+
+# Build output
+dist/
+*.log
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Local env
+.env*
